@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+  "indigo": $indigo,
+  "pink": $pink,
+  "teal": $teal,
+  "teal-dark": $teal-900,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
