@@ -14,13 +14,10 @@ import { CardComponent } from './card/card.component';
     NavbarComponent,
     FormularioComponent,
     ModalComponent,
-    CardComponent
+    CardComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
